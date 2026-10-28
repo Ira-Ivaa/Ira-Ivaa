@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="299" height="56" viewBox="0 0 299 56"><defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b1229"/><stop offset="1" stop-color="#241630"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff55b7"/><stop offset=".62" stop-color="#b874ff"/><stop offset="1" stop-color="#6fa7ff"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#b874ff" stop-opacity=".23"/><stop offset="1" stop-color="#b874ff" stop-opacity="0"/></radialGradient>
+  </defs><rect x="2" y="2" width="295" height="52" rx="26" fill="#281a3a" stroke="#b874ff" stroke-width="2"/><circle cx="28" cy="28" r="13" fill="#b874ff" opacity=".2"/><text x="28" y="34" font-family="Inter,DejaVu Sans,sans-serif" font-size="17" font-weight="700" fill="#b874ff" text-anchor="middle">➤</text><text x="49" y="35" font-family="Inter,DejaVu Sans,sans-serif" font-size="16" font-weight="600" fill="#faf3ff">Telegram  ·  <tspan font-family="'DejaVu Sans Mono',Menlo,Consolas,monospace" font-weight="700">@IvI_Ivaa</tspan></text></svg>

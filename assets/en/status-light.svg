@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="105" viewBox="0 0 1120 105" role="img" aria-labelledby="title">
+  <title id="title">Available: open to frontend internships and junior roles.</title>
+  <style>
+    .sweep { animation: sweep 6s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-260px); } 50% { transform: translateX(1140px); } 100% { transform: translateX(-260px); } }
+    .ring { transform-box: fill-box; transform-origin: center; animation: ring 2s ease-out infinite; }
+    .ring.b { animation-delay: 1s; }
+    @keyframes ring { 0% { transform: scale(.6); opacity: .95; } 100% { transform: scale(1.7); opacity: 0; } }
+    .ok { animation: ok 1.6s steps(1, end) infinite; }
+    @keyframes ok { 50% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f8ecfc"/><stop offset=".5" stop-color="#efdcf9"/><stop offset="1" stop-color="#ece3fb"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#e9a6dd" stop-opacity=".55"/><stop offset="1" stop-color="#e9a6dd" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect x="2" y="2" width="1116" height="101" rx="14"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="1116" height="101" rx="14" fill="url(#bg)"/>
+  <g clip-path="url(#clip)"><ellipse class="sweep" cx="0" cy="52" rx="170" ry="70" fill="url(#glow)"/></g>
+  <rect x="2" y="2" width="1116" height="101" rx="14" fill="none" stroke="#d5bfe3" stroke-width="1.5"/>
+  <rect x="22" y="21" width="218" height="63" rx="12" fill="#ffffff" fill-opacity=".62"/>
+  <circle class="ring" cx="56" cy="52.5" r="10" fill="none" stroke="#c22e8a" stroke-width="2"/>
+  <circle class="ring b" cx="56" cy="52.5" r="10" fill="none" stroke="#c22e8a" stroke-width="2"/>
+  <circle cx="56" cy="52.5" r="6" fill="#c22e8a"/>
+  <text x="80" y="58" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" letter-spacing=".5" fill="#281b35">AVAILABLE</text>
+  <text x="272" y="50" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="24" font-weight="700" fill="#281b35">Open to internships</text>
+  <text x="272" y="77" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif" font-size="15" font-weight="600" fill="#6c587d">and junior roles · Frontend</text>
+  <text class="ok" x="1090" y="58" text-anchor="end" font-family="'DejaVu Sans Mono', Menlo, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="16" font-weight="700" fill="#c22e8a">[  OK  ]</text>
+</svg>
